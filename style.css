@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+    
+    
+}
+
+#menu-superior{
+    background-image: url(imagens/fundomenu.svg);
+    color: aliceblue;
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulo1{
+    margin-left: 190px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+#frase1{
+    margin-left: 190px;
+    padding-bottom: 100px;
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#depoimento{
+    background-color: aliceblue;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulo-carrosel{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-right: 25px;
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: auto;
+}
+
+.cards{
+    margin-left: 40px;
+}
+
+#bruna{
+    display: none;
+}
+
+#esquerda{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+
+}
+
+.seta:hover{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+}
+
+#secao-formulario{
+    padding: 25px;
+    text-align: center;
+}
+
+#tituloform{
+    text-align: center;
+    color: black;
+}
+
+input{
+    margin: 15px;
+    width: 300px;
+    height: 53px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    color: aliceblue;
+    width: 335px;
+    height: 53px;
+    top: 2028px;
+    left: 570px;
+    opacity: 1;
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
